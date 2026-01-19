@@ -1,9 +1,30 @@
-import Image from "next/image";
+import AvailableCourses from '@/components/Availablecourses'
+import Footer from '@/components/Footer'
+import Hero from '@/components/Hero'
+// import Navbar from '@/components/Navbar'
+import Pricing from '@/components/Pricing'
+import PricingHero from '@/components/PricingHero'
+import WhyPTP from '@/components/Ptp'
+import QuestionMedium from '@/components/Question'
+import QuestionTypes from '@/components/Questiontypes'
+import MostRecommendedClasses from '@/components/Recomended'
+import React from 'react'
 
-export default function Home() {
+function page() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <p>Team, we are embarking on this project together, and every line of code, every idea, and every effort counts. Let’s stay focused, support each other, and push our limits. Remember, great achievements come from collaboration, determination, and believing in our abilities. Together, we can turn challenges into opportunities and create something amazing!</p>
-    </div>
-  );
+    <>
+    {/* <Navbar/> */}
+    <Hero/>
+    <AvailableCourses/>
+    <MostRecommendedClasses/>
+    <QuestionMedium/>
+    <QuestionTypes/>
+    <WhyPTP/>
+    <Pricing/>
+    <PricingHero/>
+    <Footer/>
+    </>
+  )
 }
+
+export default page
