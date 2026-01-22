@@ -1,7 +1,7 @@
 import AvailableCourses from '@/components/Availablecourses'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
-// import Navbar from '@/components/Navbar'
+import Navbar from '@/components/Navbar'
 import Pricing from '@/components/Pricing'
 import PricingHero from '@/components/PricingHero'
 import WhyPTP from '@/components/Ptp'
@@ -13,7 +13,7 @@ import React from 'react'
 function page() {
   return (
     <>
-    {/* <Navbar/> */}
+    <Navbar/>
     <Hero/>
     <AvailableCourses/>
     <MostRecommendedClasses/>
