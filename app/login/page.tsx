@@ -11,20 +11,16 @@ const LoginPage: React.FC = () => {
 
   return (
     <>
-      <section className="relative min-h-screen bg-[#E8F3EA] flex items-start justify-center px-4 pt-10 overflow-hidden">
-
-        {/* LEFT Watermark */}
+      <section className="relative min-h-screen bg-[#E8F3EA] flex items-start justify-center px-4 pt-24 overflow-hidden">
         <div className="absolute -left-32 top-1/4 w-[260px] h-[260px] bg-[#cceedd] rounded-full opacity-30" />
 
-        {/* RIGHT Watermark */}
         <div className="absolute -right-32 bottom-20 w-[240px] h-[240px] bg-[#cceedd] rounded-full opacity-30" />
 
-        {/* LOGIN CARD */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
+  <motion.div
+          initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="relative z-10 bg-white w-full max-w-[320px] rounded-2xl px-6 py-6"
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="relative z-10 bg-white w-full max-w-[320px] rounded-2xl px-6 py-6 shadow-xl"
         >
           {/* Icon */}
           <div className="flex justify-center mb-3">
