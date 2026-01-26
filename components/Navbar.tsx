@@ -4,14 +4,19 @@ import React, { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import RegistrationProcedure from "./Regiter";
 import Link from "next/link"; // ← import Link
+import PastPapers from "@/app/PastPapers/page"; 
+import { useRouter } from "next/navigation";
 
 const Navbar: React.FC = () => {
   const [showRegister, setShowRegister] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [PastPapers, setPastPapers] = useState(false);
+  const [menuOpe, setMenuOpe] = useState(false);
+const router = useRouter();
 
   return (
     <>
-      <nav className="w-full bg-[#E8F3EA] px-4 sm:px-6 md:px-10 py-4 flex items-center justify-between relative z-50">
+      <nav className="w-full bg-[#E8F3EA]  px-4 sm:px-6 md:px-10 py-4 flex items-center justify-between relative z-50">
         
         {/* Logo */}
         <div className="flex items-center">
@@ -24,7 +29,9 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-10 text-sm font-medium text-gray-800 ml-16">
-          <li className="hover:text-[#2f855a] cursor-pointer">Home</li>
+          <li
+            onClick={() => router.push("/")}
+ className="hover:text-[#2f855a] cursor-pointer">Home</li>
           <li
             onClick={() => setShowRegister(true)}
             className="hover:text-[#2f855a] cursor-pointer"
@@ -33,7 +40,14 @@ const Navbar: React.FC = () => {
           </li>
           <li className="hover:text-[#2f855a] cursor-pointer">Video</li>
           <li className="hover:text-[#2f855a] cursor-pointer">Trial Account</li>
-          <li className="hover:text-[#2f855a] cursor-pointer">Past Papers</li>
+          
+          <li
+  onClick={() => router.push("/PastPapers")}
+  className="hover:text-[#2f855a] cursor-pointer"
+>
+  Past Papers
+</li>
+
         </ul>
 
         {/* Login Button (desktop) */}
