@@ -32,7 +32,7 @@ export const pastPapersData: PastPaper[] = [
     id: 4,
     title: "12TH",
     gradient: "from-amber-400 via-yellow-300 to-orange-400",
-     link: "/past-papers/12th",
+     link: "/past/pastpaper12",
     arrow: true,
   },
 ];

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { pastPapersData11 } from "@/components/data/past9Data";
+import { pastPapersData12 } from "@/components/data/past9Data";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useRouter } from "next/navigation";
@@ -40,7 +40,7 @@ const PastPapers = () => {
       </div>
       {/* Cards */}
       <div className="flex flex-wrap justify-center gap-8 px-4">
-        {pastPapersData11.map((item) => (
+        {pastPapersData12.map((item) => (
   <motion.div
     key={item.id}
     whileHover={{ scale: 1.05 }}
