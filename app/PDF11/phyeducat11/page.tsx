@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import {  pastPaperseducte10, pastPaperseducte9 } from "@/components/data/pdf";
+import {  phyeducat11 } from "@/components/data/pdf";
 
 export default function PastPapersBiologyPage() {
   return (
@@ -21,7 +21,7 @@ export default function PastPapersBiologyPage() {
 
       {/* Years */}
       <div className="space-y-12">
-        {pastPaperseducte10.map((yearGroup) => (
+        {phyeducat11.map((yearGroup) => (
           <div key={yearGroup.year}>
             {/* Year Bar */}
             <div className="mb-6 rounded-lg bg-gradient-to-r from-green-400 to-blue-700 py-3 text-center text-xl font-semibold text-white">
