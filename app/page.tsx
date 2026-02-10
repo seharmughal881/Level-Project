@@ -13,7 +13,7 @@ import React from 'react'
 function page() {
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
     <Hero/>
     <AvailableCourses/>
     <MostRecommendedClasses/>
