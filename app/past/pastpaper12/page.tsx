@@ -29,13 +29,17 @@ const PastPapers = () => {
   return (
     <section className="w-full min-h-screen bg-[#FFFFFF] py-16">
       {/* Heading */}
-      <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold">
-         <span className="text-orange-500">Past</span><span className="text-black"> Papers</span>
-       </h2>
+      
+       <div className="text-center mb-12">
+        
+<h2 className="text-4xl font-bold">
+  <span className="text-emerald-600">Past</span>{" "}
+  <span className="text-green-500">Papers</span>
+</h2>
+
         <div className="mt-2 flex justify-center">
           <span className="h-1 w-20 bg-black"></span>
-          <span className="h-1 w-20 bg-orange-500"></span>
+          <span className="h-1 w-20 bg-green-500"></span>
         </div>
       </div>
       {/* Cards */}

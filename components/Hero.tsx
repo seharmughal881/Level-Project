@@ -103,13 +103,21 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.9 }}
           className="flex justify-center items-center"
         >
-          <div className="relative w-[360px] sm:w-[460px] h-[360px] sm:h-[460px] rounded-full overflow-hidden">
+          {/* <div className="relative w-[360px] sm:w-[460px] h-[360px] sm:h-[460px]  overflow-hidden">
             <img
-              src="/images/pic1.png"
+              src="/images/sehar.png"
               alt="Student"
-              className="w-full h-full object-cover rounded-full"
-            />
-          </div>
+              className="w-full h-full object-cover "
+            /> */}
+          {/* </div> */}
+          <div className="relative w-[760px] sm:w-[460px] h-[360px] sm:h-[460px] overflow-hidden flex items-center justify-center">
+  <img
+    src="/images/sehar.png"
+    alt="Student"
+    className="w-full h-full object-contain"
+  />
+</div>
+
         </motion.div>
       </div>
 
