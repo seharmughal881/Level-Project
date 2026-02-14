@@ -15,8 +15,8 @@ pastPapersBiology: YearGroup[] = [
   {
     year: 2024,
     papers: [
-      { board: "Bahawalpur Board", subject: "BIOLOGY", pdfUrl: "/pdfs/bahawalpur-2024-biology.pdf" },
-      { board: "D.G Khan Board", subject: "BIOLOGY", pdfUrl: "/pdfs/dgkhan-2024-biology.pdf" },
+      { board: "Bahawalpur Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/638981082227496740.pdf" },
+      { board: "D.G Khan Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/download.pdf" },
       { board: "Faisalabad Board", subject: "BIOLOGY", pdfUrl: "/pdfs/faisalabad-2024-biology.pdf" },
       { board: "Gujranwala Board", subject: "BIOLOGY", pdfUrl: "/pdfs/gujranwala-2024-biology.pdf" },
       { board: "Lahore Board", subject: "BIOLOGY", pdfUrl: "/pdfs/lahore-2024-biology.pdf" },
@@ -2229,7 +2229,7 @@ biology11: YearGroup[] = [
   {
     year: 2024,
     papers: [
-      { board: "Bahawalpur Board", subject: "BIOLOGY", pdfUrl: "/pdfs/bahawalpur-2024-biology.pdf" },
+      { board: "Bahawalpur Board", subject: "BIOLOGY", pdfUrl: "/pdf11/pdfbio11/638981082227496740.pdf" },
       { board: "D.G Khan Board", subject: "BIOLOGY", pdfUrl: "/pdfs/dgkhan-2024-biology.pdf" },
       { board: "Faisalabad Board", subject: "BIOLOGY", pdfUrl: "/pdfs/faisalabad-2024-biology.pdf" },
       { board: "Gujranwala Board", subject: "BIOLOGY", pdfUrl: "/pdfs/gujranwala-2024-biology.pdf" },

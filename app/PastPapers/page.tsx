@@ -5,13 +5,17 @@ import { pastPapersData } from "../../components/data/pastPapersData";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useRouter } from "next/navigation";
+import Navbar from "@/components/Navbar";
 
 const PastPapers = () => {
     const router = useRouter();
 
   return (
+<div className="">  <Navbar/> 
     <section className="w-full min-h-screen bg-[#FFFFFF] py-16">
       {/* Heading */}
+                 
+
       <div className="text-center mb-12">
        
         <h2 className="text-4xl font-bold">
@@ -55,6 +59,7 @@ const PastPapers = () => {
 
       </div>
     </section>
+    </div>
   );
 };
 
