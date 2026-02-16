@@ -15,15 +15,15 @@ pastPapersBiology: YearGroup[] = [
   {
     year: 2024,
     papers: [
-      { board: "Bahawalpur Board", subject: "BIOLOGY", pdfUrl: "/pdfs/bahawalpur-2024-biology.pdf" },
-      { board: "D.G Khan Board", subject: "BIOLOGY", pdfUrl: "/pdfs/dgkhan-2024-biology.pdf" },
-      { board: "Faisalabad Board", subject: "BIOLOGY", pdfUrl: "/pdfs/faisalabad-2024-biology.pdf" },
-      { board: "Gujranwala Board", subject: "BIOLOGY", pdfUrl: "/pdfs/gujranwala-2024-biology.pdf" },
-      { board: "Lahore Board", subject: "BIOLOGY", pdfUrl: "/pdfs/lahore-2024-biology.pdf" },
-      { board: "Multan Board", subject: "BIOLOGY", pdfUrl: "/pdfs/multan-2024-biology.pdf" },
-      { board: "Rawalpindi Board", subject: "BIOLOGY", pdfUrl: "/pdfs/rawalpindi-2024-biology.pdf" },
-      { board: "Sargodha Board", subject: "BIOLOGY", pdfUrl: "/pdfs/sargodha-2024-biology.pdf" },
-      { board: "Sahiwal Board", subject: "BIOLOGY", pdfUrl: "/pdfs/sahiwal-2024-biology.pdf" },
+      { board: "Bahawalpur Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/638981082227496740.pdf" },
+      { board: "D.G Khan Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/638981082374198358.pdf" },
+      { board: "Faisalabad Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/638981082536909173.pdf" },
+      { board: "Gujranwala Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/638981082807584450.pdf" },
+      { board: "Lahore Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/638981083156555288.pdf" },
+      { board: "Multan Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/638981083713882960.pdf" },
+      { board: "Rawalpindi Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/638981084203766579.pdf" },
+      { board: "Sargodha Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/638981084527228271.pdf" },
+      { board: "Sahiwal Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/638981081626927517.pdf" },
     ],
   },
   {
@@ -2229,7 +2229,7 @@ biology11: YearGroup[] = [
   {
     year: 2024,
     papers: [
-      { board: "Bahawalpur Board", subject: "BIOLOGY", pdfUrl: "/pdfs/bahawalpur-2024-biology.pdf" },
+      { board: "Bahawalpur Board", subject: "BIOLOGY", pdfUrl: "/pdf11/pdfbio11/638981082227496740.pdf" },
       { board: "D.G Khan Board", subject: "BIOLOGY", pdfUrl: "/pdfs/dgkhan-2024-biology.pdf" },
       { board: "Faisalabad Board", subject: "BIOLOGY", pdfUrl: "/pdfs/faisalabad-2024-biology.pdf" },
       { board: "Gujranwala Board", subject: "BIOLOGY", pdfUrl: "/pdfs/gujranwala-2024-biology.pdf" },

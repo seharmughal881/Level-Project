@@ -21,14 +21,14 @@ export default function DashboardPage() {
       subtitle: "Download & Print",
       icon: <ClipboardList size={28} />,
       gradient: "from-blue-400 to-blue-600",
-      route: "/dashboard/savedpapers",
+      route: "/login/dashboard/savedpapers",
     },
     {
       title: "Sub Users",
       subtitle: "Manage Accounts",
       icon: <Users size={28} />,
       gradient: "from-purple-400 to-purple-600",
-      route: "/dashboard/subusers",
+      route: "/login/dashboard/SubUsers",
     },
     {
       title: "Account Activities",
