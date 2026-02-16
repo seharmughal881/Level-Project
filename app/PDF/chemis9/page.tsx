@@ -16,7 +16,7 @@ export default function PastPapersBiologyPage() {
   Past Papers
 </h1>
 
-        <p className="mt-2 text-sm text-gray-500">9th &nbsp; | &nbsp; Biology</p>
+        <p className="mt-2 text-sm text-gray-500">9th &nbsp; | &nbsp; Chemistry</p>
       </div>
 
       {/* Years */}
@@ -34,6 +34,7 @@ export default function PastPapersBiologyPage() {
                 <a
                   key={index}
                   href={paper.pdfUrl}
+                   download={`${paper.board}_${yearGroup.year}_Chemistry.pdf`} 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-xl bg-white p-6 text-center shadow-md transition hover:shadow-xl"
