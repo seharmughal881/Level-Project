@@ -56,14 +56,14 @@ pastPapersBiology: YearGroup[] = [
   {
     year: 2021,
     papers: [
-      { board: "Lahore Board", subject: "BIOLOGY", pdfUrl: "#" },
-      { board: "Bahawalpur Board", subject: "BIOLOGY", pdfUrl: "#" },
-      { board: "D.G Khan Board", subject: "BIOLOGY", pdfUrl: "#" },
-      { board: "Faisalabad Board", subject: "BIOLOGY", pdfUrl: "#" },
-      { board: "Gujranwala Board", subject: "BIOLOGY", pdfUrl: "#" },
-      { board: "Multan Board", subject: "BIOLOGY", pdfUrl: "#" },
-      { board: "Rawalpindi Board", subject: "BIOLOGY", pdfUrl: "#" },
-      { board: "Sargodha Board", subject: "BIOLOGY", pdfUrl: "#" },
+      { board: "Lahore Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/2021/638981062453062547.pdf" },
+      { board: "Bahawalpur Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/2021/638981063386358660.pdf" },
+      { board: "D.G Khan Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/2021/638981063669922824.pdf" },
+      { board: "Faisalabad Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/2021/638981063852390902.pdf" },
+      { board: "Gujranwala Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/2021/638981064014497385.pdf" },
+      { board: "Multan Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/2021/638981064215158969.pdf" },
+      { board: "Rawalpindi Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/2021/638981064501056994.pdf" },
+      { board: "Sargodha Board", subject: "BIOLOGY", pdfUrl: "/pdfs/biology/2021/638981064777772152.pdf" },
     ],
   },
 ];
